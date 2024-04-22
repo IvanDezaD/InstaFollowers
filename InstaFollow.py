@@ -60,7 +60,7 @@ def main():
     listaSeguidores = []
     loadFileFollowers(args.followers, listaSeguidores)
     loadFileFollowing(args.following,listaSeguidos)
-    print(runList(listaSeguidos, listaSeguidores))
+    print(f" Aqui tienes la lista de peronsas a las que sigues y no te siguen!: \n{runList(listaSeguidos, listaSeguidores)}")
 
 
 if __name__ == '__main__':
